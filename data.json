@@ -1,27 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "name": "Omar Flores",
+    "profession": "Software Developer",
+    "company": "3DVES",
+    "email": "dev@omarefg.com",
+    "phone": "+573197907031",
+    "avatar": "https://pbs.twimg.com/profile_images/1107624417675407361/-5DssyRU_400x400.jpg",
+    "profile": "Software Developer and Project Manager. Creating amazing apps since 2016 and passionate about making projects reality. IT and Devops Manager @ 3DVES",
     "Academic": [
       {
         "degree": "Atomic Master",
@@ -72,11 +57,12 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+    "interests": [
+      "Javascript",
+      "Development",
+      "Backend",
+      "Frontend",
+      "Devops"
     ],
     "languages": [
       {
