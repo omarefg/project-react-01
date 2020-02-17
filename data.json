@@ -25,18 +25,25 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "site": "3DVES",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "description": "IT team projects management.",
+        "job": "IT and DevOps Manager",
+        "startDate": "Mar 2090"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "site": "3DVES",
+        "endDate": "Mar 2019",
+        "description": "Frontend Development working with React and React Native.",
+        "job": "Frontend Developer",
+        "startDate": "Mar 2018"
+      },
+      {
+        "site": "Freelance",
+        "endDate": "Mar 2019",
+        "description": "Web Frontend Development in HTML5, CSS & JavaScript creating amazing apps with Vue.js.",
+        "job": "Freelance Frontend Developer",
+        "startDate": "Sept 2017"
       }
     ],
     "skills": [

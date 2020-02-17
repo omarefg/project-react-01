@@ -16,31 +16,23 @@ const Item = ({ date, site, job, description }) => {
   );
 };
 
-const Experience = () => {
+const Experience = ({ experience }) => {
   return (
     <div>
       <Title
         className='Experience-title'
         title='Experience'
       />
-      <Item
-        date=''
-        site=''
-        job=''
-        description=''
-      />
-      <Item
-        date=''
-        site=''
-        job=''
-        description=''
-      />
-      <Item
-        date=''
-        site=''
-        job=''
-        description=''
-      />
+      {experience && experience.map((item) => {
+        return (
+          <Item
+            date={`${item.startDate} / ${item.endDate}`}
+            site={item.site}
+            job={item.job}
+            description={item.jobDescrip}
+          />
+        );
+      })}
     </div>
   );
 };

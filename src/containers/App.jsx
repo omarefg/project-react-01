@@ -46,6 +46,7 @@ const App = () => {
     interests,
     email,
     phone,
+    experience,
   } = data;
 
   return (
@@ -72,7 +73,9 @@ const App = () => {
           />
         </Banner>
         <Principal>
-          <Experience />
+          <Experience
+            experience={experience}
+          />
           <Academic />
           <Skills />
           <Languages />

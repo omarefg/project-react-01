@@ -1,15 +1,14 @@
 @import '../lib/colors.styl'
-@import '../lib/extends.styl'
 
 .layout__container
     display flex
     min-height 100vh
     justify-content center
     align-items center
-    background-color cv-background
+    background-color cv-base-color
     color cv-letter
     & .layout__subcontainer
-        width 70vw
+        width 80vw
         margin 50px 0
-        @extend .surface-level-1
+        background cv-base-color
         padding 32px
