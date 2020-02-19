@@ -19,7 +19,6 @@ import getData from '@utils/getData';
 import '@styles/containers/App.styl';
 
 const App = () => {
-
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
