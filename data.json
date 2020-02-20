@@ -7,32 +7,50 @@
     "phone": "+573197907031",
     "avatar": "https://pbs.twimg.com/profile_images/1107624417675407361/-5DssyRU_400x400.jpg",
     "profile": "Software Developer and Project Manager. Creating amazing apps since 2016 and passionate about making projects reality. IT and Devops Manager @ 3DVES",
-    "Academic": {
-      "cursos": [
+    "academic": [
         {
-          "degree": "Introducción a Terminal y Línea de Comandos",
-          "endDate": "09/12/2019",
-          "institution": "MIT",
-          "certificate": "https://platzi.com/@omarefg/curso/1276-terminal-2019/diploma/detalle/",
-          "img": ""
+          "degree": "Curso Avanzado de NodeJS",
+          "endDate": "02/18/2020",
+          "institution":"Platzi",
+          "img": "curso_avanzado_de_nodejs.png"
         },
         {
-          "degree": "Space Engineering",
-          "endDate": "Decenber 2015",
-          "institution": "Harvard",
-          "certificate": ""
+          "degree": "Curso Básico de Algoritmos",
+          "endDate": "02/01/2020",
+          "institution":"Platzi",
+          "img": "curso_basico_de_algoritmos.png"
+        },
+        {
+          "degree": "Curso Básico de MongoDB",
+          "endDate": "08/15/2019",
+          "institution":"Platzi",
+          "img": "curso_basico_de_mongodb.png"
+        },
+        {
+          "degree": "Curso Básico de NodeJJ",
+          "endDate": "02/03/2019",
+          "institution":"Platzi",
+          "img": "curso_basico_de_nodejs.png"
+        },
+        {
+          "degree": "Curso Básico de VueJS",
+          "endDate": "12/14/2017",
+          "institution":"Platzi",
+          "img": "curso_basico_de_vuejs.png"
+        },
+        {
+          "degree": "Curso de Administración de Servidores Linux",
+          "endDate": "10/07/2019",
+          "institution":"Platzi",
+          "img": "curso_de_administracion_de_servidores_linux.png"
+        },
+        {
+          "degree": "Curso de Autenticación con PassportJS",
+          "endDate": "09/28/2019",
+          "institution":"Platzi",
+          "img": "curso_de_autenticacion_con_passport.png"
         }
       ],
-      "carreras": [
-        {
-          "degree": "Introducción a Terminal y Línea de Comandos",
-          "endDate": "09/12/2019",
-          "institution": "MIT",
-          "certificate": "https://platzi.com/@omarefg/curso/1276-terminal-2019/diploma/detalle/",
-          "img": ""
-        }
-      ]
-    },
     "experience": [
       {
         "site": "3DVES",
@@ -59,19 +77,19 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "95%"
       }
     ],
     "interests": [
@@ -84,29 +102,25 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/omarefg"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/omarefg"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/omarefg"
       }
     ]
   }

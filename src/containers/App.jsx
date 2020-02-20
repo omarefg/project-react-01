@@ -46,6 +46,7 @@ const App = () => {
     email,
     phone,
     experience,
+    academic,
   } = data;
 
   return (
@@ -75,7 +76,9 @@ const App = () => {
           <Experience
             experience={experience}
           />
-          <Academic />
+          <Academic
+            academic={academic}
+          />
           <Skills />
           <Languages />
         </Principal>
