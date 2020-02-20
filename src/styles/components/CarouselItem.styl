@@ -1,0 +1,49 @@
+.carousel-item__container
+    background-color palevioletred
+    width 200px
+    height 250px
+    border-radius 20px
+    overflow hidden
+    margin-right 10px
+    display inline-block
+    cursor pointer
+    transition 450ms
+    transform-origin center left
+    position relative
+    &hover
+        opacity 1 !important
+        transform scale(1.1)
+
+        ~ .carousel-item__container
+            transform translate3d(50px, 0, 0)
+
+
+        .carousel-item__container__details--subtitle
+            opacity 1
+
+.carousel-item__container__img
+    width 200px
+    height 250px
+    object-fit cover
+
+.carousel-item__container__details
+    background linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%)
+    font-size 10px
+    opacity 0
+    transition 450ms opacity
+    padding 10px
+    position absolute
+    right 0
+    bottom 0
+    left 0
+    color white
+    img
+        width 2em
+        &hover
+            opacity .8
+            transform scale(1.1)
+
+.carousel-item__container__details--title
+    width 100%
+    overflow hidden
+    text-overflow ellipsis
