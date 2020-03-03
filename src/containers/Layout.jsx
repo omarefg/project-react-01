@@ -3,8 +3,8 @@ import '@styles/containers/Layout.styl';
 
 const Layout = ({ children }) => {
   return (
-    <div className='layout__container'>
-      <div className='layout__subcontainer'>
+    <div className='Layout-container'>
+      <div className='Layout-subcontainer'>
         {children}
       </div>
     </div>

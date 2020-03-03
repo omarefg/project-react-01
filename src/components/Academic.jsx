@@ -4,13 +4,7 @@ import Carousel from '@components/Carousel';
 import CarouselItem from '@components/CarouselItem';
 import '@styles/components/Academic.styl';
 
-const mediaUrl = 'https://platzi-certificates.s3sa-east-1.amazonaws.com/';
-
-const Item = () => {
-  return (
-    <div className='Academic-item' />
-  );
-};
+const mediaUrl = 'https://platzi-certificates.s3-sa-east-1.amazonaws.com/';
 
 const Academic = ({ academic }) => {
   return (
@@ -20,17 +14,16 @@ const Academic = ({ academic }) => {
         title='Education'
       />
       <Carousel>
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
+        {academic.map(academic => (
+          <CarouselItem
+            id={academic.id}
+            img={`${mediaUrl}${academic.img}`}
+            alt={academic.degree}
+            title={academic.degree}
+            subtitles={[academic.institution, academic.endDate]}
+          />
+        ))}
       </Carousel>
-      <Item />
-      <Item />
-      <Item />
     </div>
   );
 };

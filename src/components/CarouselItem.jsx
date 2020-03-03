@@ -2,17 +2,30 @@ import React from 'react';
 import '@styles/components/CarouselItem.styl';
 
 const CarouselItem = (props) => {
+  const {
+    img,
+    alt,
+    title,
+    subtitles,
+  } = props;
 
   return (
-    <div className='carousel-item__container'>
+    <div className='Carousel-item-container'>
       <img
-        className='carousel-item__container__img'
-        src=''
-        alt=''
+        className='Carousel-item-container-img'
+        src={img}
+        alt={alt}
       />
-      <div className='carousel-item__container__details'>
-        <p className='carousel-item__container__details--title' />
-        <p className='carousel-item__container__details--subtitle' />
+      <div className='Carousel-item-container-details'>
+        <p className='Carousel-item-container-details-title'>{title}</p>
+        {subtitles.map(subtitle => (
+          <p
+            className='Carousel-item-container-details-subtitle'
+            id={subtitle}
+          >
+            {subtitle}
+          </p>
+        ))}
       </div>
     </div>
   );

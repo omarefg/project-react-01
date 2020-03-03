@@ -4,8 +4,8 @@ import '@styles/components/Carousel.styl';
 const Carousel = ({ children }) => {
 
   return (
-    <section className='carousel__section'>
-      <div className='carousel__section--container'>
+    <section className='Carousel-section'>
+      <div className='Carousel-section-container'>
         {children}
       </div>
     </section>

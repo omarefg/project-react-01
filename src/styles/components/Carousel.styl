@@ -1,27 +1,25 @@
-.carousel__section
+.Carousel-section
     width calc(100% - 60px)
     overflow-x auto
-    padding 30px 30px 0 30px
     position relative
     overflow-y hidden
-    &-webkit-scrollbar
+    &::-webkit-scrollbar
         height 10px
 
-    &-webkit-scrollbar-thumb
+    &::-webkit-scrollbar-thumb
         background rgba(44, 44, 44, 0)
         border-radius 5px
 
-    &-webkit-scrollbar-track
+    &::-webkit-scrollbar-track
         background transparent
 
-    &hover
-        &-webkit-scrollbar-thumb
+    &:hover
+        &::-webkit-scrollbar-thumb
             background rgba(44, 44, 44, 0.5)
 
-.carousel__section--container
+.Carousel-section-container
     white-space nowrap
-    margin 35px 0 0 0
-    padding 20px 0
-    &hover
-        .carousel-item__container
+    padding 20px 8px
+    &:hover
+        .Carousel-item-container
             opacity 0.3

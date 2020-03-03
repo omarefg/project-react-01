@@ -3,7 +3,7 @@ import '@styles/containers/Banner.styl';
 
 const Banner = ({ children }) => {
   return (
-    <div className='banner__container'>
+    <div className='Banner-container'>
       {children}
     </div>
   );

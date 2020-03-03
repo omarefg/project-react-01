@@ -12,43 +12,50 @@
           "degree": "Curso Avanzado de NodeJS",
           "endDate": "02/18/2020",
           "institution":"Platzi",
-          "img": "curso_avanzado_de_nodejs.png"
+          "img": "curso_avanzado_de_nodejs.png",
+          "id": "0"
         },
         {
           "degree": "Curso Básico de Algoritmos",
           "endDate": "02/01/2020",
           "institution":"Platzi",
-          "img": "curso_basico_de_algoritmos.png"
+          "img": "curso_basico_de_algoritmos.png",
+          "id": "1"
         },
         {
           "degree": "Curso Básico de MongoDB",
           "endDate": "08/15/2019",
           "institution":"Platzi",
-          "img": "curso_basico_de_mongodb.png"
+          "img": "curso_basico_de_mongodb.png",
+          "id": "2"
         },
         {
           "degree": "Curso Básico de NodeJJ",
           "endDate": "02/03/2019",
           "institution":"Platzi",
-          "img": "curso_basico_de_nodejs.png"
+          "img": "curso_basico_de_nodejs.png",
+          "id": "3"
         },
         {
           "degree": "Curso Básico de VueJS",
           "endDate": "12/14/2017",
           "institution":"Platzi",
-          "img": "curso_basico_de_vuejs.png"
+          "img": "curso_basico_de_vuejs.png",
+          "id": "4"
         },
         {
           "degree": "Curso de Administración de Servidores Linux",
           "endDate": "10/07/2019",
           "institution":"Platzi",
-          "img": "curso_de_administracion_de_servidores_linux.png"
+          "img": "curso_de_administracion_de_servidores_linux.png",
+          "id": "5"
         },
         {
           "degree": "Curso de Autenticación con PassportJS",
           "endDate": "09/28/2019",
           "institution":"Platzi",
-          "img": "curso_de_autenticacion_con_passport.png"
+          "img": "curso_de_autenticacion_con_passport.png",
+          "id": "6"
         }
       ],
     "experience": [
